@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-bar {
+    background-image: linear-gradient(90deg, #8a004f, #d772ab);
+}
+
+.nav-item {
+    font-size: larger;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item {
+        display: flex;
+        justify-content: right;
+    }
+
+    #Renan {
+        display: inline-block !important;
+        margin-left: 83%;
+    }
+}
+
+#btnn {
+    background-color: #d772ab;
+}
+
+#btnn:hover {
+    background-color: #8a004f;
+    color: #ffffff;
+}
+
+#body {
+    background-color: black;
+}
+
+#title-style {
+    font: bolder xx-large italic;
+    font-family: ;
+    font-style: oblique;
+    color: #c78aad;
+    letter-spacing: 4.5px;
+}
+
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio]+img {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked+img {
+    outline: 1px solid black;
+}
+
+/* #form-check {
+    vertical-align: middle;
+} */
+
+#Renan {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#Renan label {
+    margin: 0;
+}
+
+.border-btn {
+background: #b51f74;
+border-radius: 50px;
+cursor: pointer;
+}
+
+#navbarNav {
+    margin-right: 30px;
+}
